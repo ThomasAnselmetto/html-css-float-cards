@@ -1,0 +1,32 @@
+/*reset*/
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{font-family:'Fredoka One', cursive;}
+
+/*:root{--base;}
+
+img {
+    max-width:100%;
+}
+
+/*utils*/
+
+/* .container{
+    max-width: 800px;
+    margin:0 auto;
+} */
+
+/* .annulla-collasso-genitore(.clearfix)::after 
+    clear:both
+    content:'';
+    display:table; */ 
+
+
+
+    
+/*generic*/
