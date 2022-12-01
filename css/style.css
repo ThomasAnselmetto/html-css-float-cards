@@ -8,7 +8,7 @@
 
 body{font-family:'Fredoka One', cursive;}
 
-/*:root{--base;}
+/*:root{--base;}*/
 
 img {
     max-width:100%;
@@ -16,10 +16,14 @@ img {
 
 /*utils*/
 
-/* .container{
+.container{
     max-width: 800px;
     margin:0 auto;
-} */
+}
+
+#main-text{
+    text-align:center;
+}
 
 /* .annulla-collasso-genitore(.clearfix)::after 
     clear:both
@@ -30,3 +34,20 @@ img {
 
     
 /*generic*/
+.clearfix::after{
+    clear:both;
+    content:"";
+    display:table; 
+}
+
+.row{
+    width: 1000px;
+
+}
+
+.column{
+    height:200px;
+    background-color: coral;
+    float:left;
+    width:100% / 3;
+}
