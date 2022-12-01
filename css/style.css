@@ -11,7 +11,8 @@ body{font-family:'Fredoka One', cursive;}
 /*:root{--base;}*/
 
 img {
-    max-width:100%;
+    float:left;
+    max-width: 100px;
 }
 
 /*utils*/
@@ -24,6 +25,7 @@ img {
 #main-text{
     text-align:center;
     color:#E53170 ;
+    margin:40px 0;
 }
 
 /* .annulla-collasso-genitore(.clearfix)::after 
@@ -43,11 +45,21 @@ img {
 
 .row{
     width: 1000px;
+    
 
 }
 
 .column{
-    background-color: coral;
     float:left;
-    width:100% / 3;
+    width: calc(100% /3);
+}
+.subject{
+    background-color: #0F0E17;
+    color:white;
+    width:100%;
+    padding:2rem;
+    line-height: 1.8;
+}
+.subject :last-child{
+    color:#58CDEF;
 }
