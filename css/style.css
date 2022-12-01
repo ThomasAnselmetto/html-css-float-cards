@@ -17,12 +17,13 @@ img {
 /*utils*/
 
 .container{
-    max-width: 800px;
+    max-width: 1000px;
     margin:0 auto;
 }
 
 #main-text{
     text-align:center;
+    color:#E53170 ;
 }
 
 /* .annulla-collasso-genitore(.clearfix)::after 
@@ -46,7 +47,6 @@ img {
 }
 
 .column{
-    height:200px;
     background-color: coral;
     float:left;
     width:100% / 3;
